@@ -30,3 +30,26 @@
 // const word = "hello world";
 // програма повинна вивести:
 // h=1 e=1 l=3 o=4 r=1 d=1
+
+// const word = 'hello'.split('');
+// {
+//   console.log('h', 'e', 'l', 'l', 'o');
+// }
+
+// const word = 'hello',
+//   sum = {};
+
+// word.split('').map(function (e) {
+//   sum[e] = !sum[e] ? 1 : sum[e] + 1;
+// });
+
+// console.log(sum);
+
+// const word = 'hello world',
+//   sum = {};
+
+// word.split('').map(function (e) {
+//   sum[e] = !sum[e] ? 1 : sum[e] + 1;
+// });
+
+// console.log(sum);

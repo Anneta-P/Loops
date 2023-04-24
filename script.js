@@ -1,4 +1,4 @@
-//Завдання 1
+// Завдання 1
 // Вивести всі непарні числа
 // Цикл повинен проходити від 1 до 200
 // і виводити всі непарні числа
@@ -10,7 +10,7 @@
 // }
 
 //Завдання 2
-// Вивети всі квадрати числ від 1 до 10
+// Вивети всі квадрати чисел від 1 до 10
 // 1*1 = 2
 // 2*2 = 4
 // 3*3 = 9
@@ -31,11 +31,6 @@
 // програма повинна вивести:
 // h=1 e=1 l=3 o=4 r=1 d=1
 
-// const word = 'hello'.split('');
-// {
-//   console.log('h', 'e', 'l', 'l', 'o');
-// }
-
 // const word = 'hello',
 //   sum = {};
 
@@ -45,11 +40,18 @@
 
 // console.log(sum);
 
-// const word = 'hello world',
-//   sum = {};
+// const word = 'hello   world';
+// const counts = {};
 
-// word.split('').map(function (e) {
-//   sum[e] = !sum[e] ? 1 : sum[e] + 1;
-// });
+// for (let i = 0; i < word.length; i++) {
+//   const letter = word[i];
+//   if (counts[letter]) {
+//     counts[letter]++;
+//   } else {
+//     counts[letter] = 1;
+//   }
+// }
 
-// console.log(sum);
+// for (const letter in counts) {
+//   console.log(`${letter}=${counts[letter]}`);
+// }
